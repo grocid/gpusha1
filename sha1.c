@@ -199,10 +199,10 @@ __global__ void run()
 
         nnum += 256 * 1024;
 
-    } while (!(check_trail(buf)) && nnum < __MAX_ITERATIONS__);
+    } while ((__INVMASKFUNC__) && nnum < __MAX_ITERATIONS__);
 
 
-    if (check_trail(buf))
+    if (__MASKFUNC__)
     {
         printf("%s\n", text1);/*
         printf("%.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x\n", 
