@@ -13,3 +13,6 @@ which achieves around 1.7 MH/s running on 12 threads (5820k @ 3.6 GHz), the CUDA
  user    0m1.484s
  sys    0m7.028s
 ```
+
+## Disclaimer
+This is by no means perfect, I have 'sort-of' known how to use CUDA for less than 24 hours.
