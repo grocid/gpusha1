@@ -5,9 +5,11 @@ which achieves around 1.7 MH/s running on 12 threads (5820k @ 3.6 GHz), the CUDA
 
 ## Example
 
+```
  λ time ./gc grocid -s
  grocidoEyCab
 
  real    0m8.527s
  user    0m1.484s
  sys    0m7.028s
+```
