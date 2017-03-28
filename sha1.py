@@ -60,7 +60,7 @@ class SHAgpu:
     def cuda_run(self):
     	print 'Running grocollv1 on 2^%s candidates...' % str(self.loglen * self.length)
     	print '-' * 30
-        self.init_cuda('mothafucka')
+        self.init_cuda('mothafuckaz')
         run = self.mod.get_function("run");
         run(self.cuda_buf, block = (1024, 1, 1), grid = (256, 1))
 
