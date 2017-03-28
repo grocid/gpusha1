@@ -1,3 +1,5 @@
+// Modified version of
+// https://github.com/B-Con/crypto-algorithms/blob/master/sha1.c
 #include <stdio.h>
 
 __device__ __constant__ unsigned int threadMax;
